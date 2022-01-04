@@ -84,10 +84,7 @@ img {
   height: 60vh;
   width: 30vw;
 }
-.home-img {
-  height: 50 vh;
-  width: 40vw;
-}
+
 .container {
   width: 100vw;
   height: 100vh;
@@ -218,7 +215,7 @@ img {
   font-family: 'Bebas Neue', sans-serif;
   background: linear-gradient(45deg, transparent 5%, var(--clr-accent) 5%);
   border: 0;
-  color: rgb(66, 66, 66);
+  color: var(--clr-dark);
   letter-spacing: 3px;
   box-shadow: 6px 0px 0px #FF013C;
   outline: transparent;
@@ -602,11 +599,24 @@ img {
 
 .about-outter-div {
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
+  justify-content: space-around;
+  font-size: 20px;
+  width: 100vw;
+  height: 46vh;
 }
 
+.about-left-div {
+  display: flex;
+  flex-direction: column;
+  justify-content:space-evenly;
+  padding-right: 25px;
+  min-width: 35%;
+}
 .home-img {
   object-fit: contain;
-  width: 35vw;
-  height: 45vh;
+  width: 45vw;
+  height: 65vh;
 }
+
+
