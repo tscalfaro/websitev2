@@ -613,10 +613,22 @@ img {
   padding-right: 25px;
   min-width: 35%;
 }
+
+.about-right-div {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  min-width: 35%;
+  height: 85%;
+}
+
 .home-img {
   object-fit: contain;
   width: 45vw;
   height: 65vh;
 }
 
-
+.about-title {
+  font-style: var(--fs-h1);
+  font-size: 3rem;
+}

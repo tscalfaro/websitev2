@@ -4,7 +4,7 @@ export const About = () => {
   return (
     <div className="about-outter-div">
       <div className="about-left-div">
-        <h2>Who am I? What's my story?</h2>
+        <h2 className="about-title">Who am I? What's my story?</h2>
 
         <a href="#journey">
           <button className="resume-btn">My Journey ↷ </button>
