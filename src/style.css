@@ -32,6 +32,7 @@ body {
   font-size: var(--fs-body);
   color: var(--clr-dark);
   margin: 0;
+  
 }
 
 section {
@@ -89,7 +90,7 @@ img {
 }
 .container {
   width: 100vw;
-  height: 90vh;
+  height: 100vh;
   scroll-snap-type: y proximity;
   overflow-y: scroll;
 }
@@ -101,10 +102,10 @@ img {
   flex-direction: row;
   background-color: var(--clr-dark);
   color: rgb(250, 247, 225);
-  border-bottom: 10px solid palevioletred;
+  border-bottom: none;
   align-items: center;
   justify-content: space-between;
-  padding-bottom: 1.25rem;
+  padding-bottom: 1rem;
   padding-top: 0;
   scroll-snap-align: start;
 }
